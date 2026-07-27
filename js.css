@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(124, 124, 243);
+ min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 5px;
+  width: 300px;
+  min-height: 50vh;
+  background-color: antiquewhite;
+  text-align: center;
+  color: white;
+  align-items: center;
+  box-shadow: 0px  10px 30px blue;
+}
+h1 {
+  color: black;
+  padding: 20px;
+}
+.input{ 
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  
+    background-color: rgb(242, 129, 16);
+}
+.btn{
+    padding: 6px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: larger;
+    box-shadow: 0px 1px 20px rgb(5, 179, 237);
+}
+.btn:hover{
+    background-color: green;
+    color: rgb(243, 241, 238);
+    cursor: pointer;
+}
+.list{
+  font-size: large;
+  color: black;
+}
+.newlist{
+  list-style: none;
+}
+.Delbtn{
+  background-color:red;
+  color: white;
+  font-weight: 600;
+  padding: 6px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+}
+.Delbtn:hover{
+  background-color: rgb(111, 3, 188);
+  color: rgb(249, 247, 247);
+  cursor: pointer;
+}
+.Editbtn{
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: large;
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.Editbtn:hover{
+  background-color: rgb(137, 137, 4);
+  color: black;
+}
